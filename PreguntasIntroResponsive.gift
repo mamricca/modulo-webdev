@@ -1,0 +1,51 @@
+::RespInf1:: Si un sitio diseñado con ancho fijo se ve "pequeño" en una pantalla 4K, ¿cuál es la razón principal?
+{
+=%100% El diseño no aprovecha el espacio adicional porque fue creado para un ancho específico.
+~%0% El navegador no reconoce las etiquetas <meta>.
+~%0% El diseño no usa colores de alta resolución.
+~%0% Los elementos tienen márgenes automáticos.
+}
+[Basado en: “Si especificas un ancho fijo... este solo se verá bien en ese ancho específico.”]
+
+::RespInf2:: Un desarrollador quiere evitar mantener dos versiones de su sitio (una para escritorio y otra para móvil). Según el texto, ¿qué enfoque sería más adecuado?
+{
+~%0% Usar diseño de ancho fijo centrado.
+~%0% Crear subdominios separados según el dispositivo.
+=%100% Implementar diseño responsivo con consultas de medios.
+~%0% Usar únicamente diseños líquidos sin límites.
+}
+[Basado en: “Una opción es crear un subdominio independiente... Pero luego debes mantener dos bases de código... El diseño web responsivo lo hace posible.”]
+
+::RespInf3:: Si un sitio con diseño líquido se “aplasta” en pantallas muy pequeñas, ¿qué estrategia podría mejorar ese comportamiento?
+{
+~%0% Cambiar todas las unidades a píxeles.
+=%100% Definir min-width y max-width para controlar el rango de adaptación.
+~%0% Aumentar el ancho fijo del contenedor principal.
+~%0% Quitar el atributo viewport.
+}
+[Basado en: “Puedes mitigar estos problemas usando min-width y max-width para tu diseño.”]
+
+::RespInf4:: Completa la frase:  
+“El diseño adaptable mejoró el diseño fijo, pero seguía teniendo el problema de que ____________.”  
+{
+=solo funcionaba bien en ciertos anchos y no entre ellos
+}
+[Basado en: “El diseño adaptable permitió... pero el diseño nunca se veía bien cuando se veía entre esos tamaños.”]
+
+::RespInf5:: ¿Por qué el texto considera importante el elemento meta viewport incluso si ya se usan consultas de medios?
+{
+=%100% Porque sin él, los navegadores móviles seguirían escalando la página asumiendo un ancho de 980 px.
+~%0% Porque define los colores del sitio según el dispositivo.
+~%0% Porque acelera la carga de los archivos CSS.
+~%0% Porque elimina el uso de consultas de medios.
+}
+[Basado en: “Los navegadores... suponían que 980 píxeles era el ancho... Puedes hacerlo con un elemento meta... para que no realice ningún tipo de escalamiento.”]
+
+::RespInf6:: Según el texto, ¿qué problema pedagógico o de diseño histórico se evidencia en la evolución de los tipos de diseño?
+{
+=%100% Que los enfoques anteriores resolvían un problema puntual, pero no se adaptaban a la diversidad creciente de dispositivos.
+~%0% Que los diseñadores siempre priorizaron la estética sobre la funcionalidad.
+~%0% Que los navegadores antiguos no soportaban CSS.
+~%0% Que los usuarios no sabían ajustar la resolución de pantalla.
+}
+[Basado en: toda la narrativa sobre la evolución de los diseños fijos → líquidos → adaptables → responsivos.]
