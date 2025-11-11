@@ -7,11 +7,11 @@ gift
 ~%0% Mejora el rendimiento de JavaScript.
 ~%0% Aumenta la resolución de las imágenes.
 }
-[Basado en: "Puedes crear un diseño flexible con porcentajes para los anchos de las columnas."]
+// Basado en: "Puedes crear un diseño flexible con porcentajes para los anchos de las columnas."
 
 ::PreguntaEjemplo2:: El diseño adaptable mejoró el diseño fijo, pero seguía teniendo el problema de que ________________.
 {
 =solo funcionaba bien en ciertos anchos y no entre ellos
 }
-[Basado en: "El diseño adaptable permitió... pero el diseño nunca se veía bien cuando se veía entre esos tamaños."]
+/ Basado en: "El diseño adaptable permitió... pero el diseño nunca se veía bien cuando se veía entre esos tamaños."
 --- **Instrucción final:** Usa este formato y criterios para generar preguntas inferenciales y conceptuales a partir del siguiente texto fuente, usando citas textuales como comentarios para validar la fuente de la pregunta: --- A partir de ahora te voy a enviar el texto plano fuente sobre el que elaboraras las preguntas, en formato GIFT https://docs.moodle.org/en/GIFT_format Solo necesito las preguntas en formato GIFT, no quiero resumenes ni otra cosa

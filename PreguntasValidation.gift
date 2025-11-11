@@ -5,7 +5,7 @@
 ~%0% Evita que se necesite validación en el servidor.
 ~%0% Hace que las contraseñas sean más seguras automáticamente.
 }
-[Basado en: "Client-side validation is an initial check and an important feature of good user experience; by catching invalid data on the client-side, the user can fix it straight away."]
+// Basado en: "Client-side validation is an initial check and an important feature of good user experience; by catching invalid data on the client-side, the user can fix it straight away."
 
 ::Pregunta2:: Si un formulario HTML tiene el atributo `required` en un `<input>`, ¿qué sucede cuando el usuario deja ese campo vacío y trata de enviarlo?
 {
@@ -14,13 +14,13 @@
 ~%0% El formulario se envía, pero el servidor rechaza automáticamente los datos.
 ~%0% El navegador llena automáticamente el campo con un valor predeterminado.
 }
-[Basado en: "When this attribute is set, the element matches the :required UI pseudo-class and the form won't submit, displaying an error message on submission, if the input is empty."]
+// Basado en: "When this attribute is set, the element matches the :required UI pseudo-class and the form won't submit, displaying an error message on submission, if the input is empty."
 
 ::Pregunta3:: Complete el espacio: Para aceptar únicamente valores de texto que sigan un patrón específico en HTML, se utiliza el atributo _______________ en los elementos `<input>` de tipo texto.
 {
 =pattern
 }
-[Basado en: "Another useful validation feature is the pattern attribute, which expects a Regular Expression as its value."]
+// Basado en: "Another useful validation feature is the pattern attribute, which expects a Regular Expression as its value."
 
 ::Pregunta4:: ¿Por qué no se debe confiar únicamente en la validación del lado del cliente para la seguridad de los datos?
 {
@@ -29,7 +29,7 @@
 =%100% Porque la validación del cliente es fácil de eludir y los usuarios maliciosos pueden enviar datos incorrectos al servidor.
 ~%0% Porque el servidor no necesita procesar los datos.
 }
-[Basado en: "However, client-side validation should not be considered an exhaustive security measure! ... malicious users can still easily send bad data through to your server."]
+// Basado en: "However, client-side validation should not be considered an exhaustive security measure! ... malicious users can still easily send bad data through to your server."
 
 ::Pregunta5:: Supongamos que un `<input type="number">` tiene `min="1"`, `max="10"` y `step="1"`. ¿Qué ocurrirá si el usuario ingresa manualmente el número 3.5 y presiona enviar?
 {
@@ -38,13 +38,13 @@
 ~%0% El formulario se enviará sin problemas.
 ~%0% El valor se ignorará y el campo quedará vacío.
 }
-[Basado en: "The step attribute is omitted in our example, so the value defaults to 1. This means that floats, like 3.2, will also show as invalid."]
+// Basado en: "The step attribute is omitted in our example, so the value defaults to 1. This means that floats, like 3.2, will also show as invalid."
 
 ::Pregunta6:: Complete el espacio: En la API de Constraint Validation, la propiedad ________________ devuelve true si el valor de un campo no coincide con su patrón especificado.
 {
 =patternMismatch
 }
-[Basado en: "patternMismatch: Returns true if the value does not match the specified pattern, and false if it does match."]
+// Basado en: "patternMismatch: Returns true if the value does not match the specified pattern, and false if it does match."
 
 ::Pregunta7:: ¿Qué beneficio aporta usar `setCustomValidity()` en la validación de formularios con JavaScript?
 {
@@ -53,11 +53,10 @@
 ~%0% Cambia automáticamente los valores de los campos para que sean correctos.
 ~%0% Sustituye por completo la necesidad de los atributos HTML de validación.
 }
-[Basado en: "The setCustomValidity() method adds a custom error message to the element; if you set a custom error message, the element is considered to be invalid, and the specified error is displayed."]
+// Basado en: "The setCustomValidity() method adds a custom error message to the element; if you set a custom error message, the element is considered to be invalid, and the specified error is displayed."
 
 ::Pregunta8:: Complete el espacio: Para desactivar la validación automática del navegador y mostrar nuestros propios mensajes de error en el DOM, se puede añadir el atributo ______________ al formulario.
 {
 =novalidate
 }
-[Basado en: "This form uses the novalidate attribute to turn off the browser's automatic validation."]
-
+// Basado en: "This form uses the novalidate attribute to turn off the browser's automatic validation."
