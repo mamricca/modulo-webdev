@@ -7,7 +7,7 @@
 }
 // Basado en: "Client-side validation is an initial check and an important feature of good user experience; by catching invalid data on the client-side, the user can fix it straight away."
 
-::Pregunta2:: Si un formulario HTML tiene el atributo `required` en un `<input>`, ¿qué sucede cuando el usuario deja ese campo vacío y trata de enviarlo?
+::Pregunta2:: Si un formulario HTML tiene el atributo `required` en un `< input >`, ¿qué sucede cuando el usuario deja ese campo vacío y trata de enviarlo?
 {
 =%100% El elemento se considera inválido y el navegador muestra un mensaje de error, bloqueando el envío.
 ~%0% El campo se ignora y el formulario se envía normalmente.
@@ -16,7 +16,7 @@
 }
 // Basado en: "When this attribute is set, the element matches the :required UI pseudo-class and the form won't submit, displaying an error message on submission, if the input is empty."
 
-::Pregunta3:: Complete el espacio: Para aceptar únicamente valores de texto que sigan un patrón específico en HTML, se utiliza el atributo _______________ en los elementos `<input>` de tipo texto.
+::Pregunta3:: Complete el espacio: Para aceptar únicamente valores de texto que sigan un patrón específico en HTML, se utiliza el atributo _______________ en los elementos `< input >` de tipo texto.
 {
 =pattern
 }
@@ -31,7 +31,7 @@
 }
 // Basado en: "However, client-side validation should not be considered an exhaustive security measure! ... malicious users can still easily send bad data through to your server."
 
-::Pregunta5:: Supongamos que un `<input type="number">` tiene `min="1"`, `max="10"` y `step="1"`. ¿Qué ocurrirá si el usuario ingresa manualmente el número 3.5 y presiona enviar?
+::Pregunta5:: Supongamos que un `< input type="number" >` tiene `min="1"`, `max="10"` y `step="1"`. ¿Qué ocurrirá si el usuario ingresa manualmente el número 3.5 y presiona enviar?
 {
 =%100% El elemento se considera inválido y el formulario no se enviará.
 ~%0% El valor se redondeará automáticamente a 3 o 4.
